@@ -1,12 +1,12 @@
 //printing numbers from -1 to -5
 num=+prompt("enter a number")
-for(i=-1;!(i<=-6);i--){
+for(i=-1;!(i<=num);i--){
     console.log(i) 
 }
 
 // printing numbers from -6 to -1
 num=+prompt("enter a number")
-for(i=-6;!(i>=0);i++){
+for(i=num;!(i>=0);i++){
     console.log(i) 
 }
 
